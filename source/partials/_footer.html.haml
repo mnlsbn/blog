@@ -1,0 +1,39 @@
+-# <div class="ui stackable four column grid">
+-#   <div class="column"></div>
+-#   <div class="column"></div>
+-#   <div class="column"></div>
+-#   <div class="column"></div>
+-# </div>
+
+.ui.vertical.footer.segment
+    .ui.container
+        .ui.stackable.four.column.grid.internally.celled
+
+            .column.footer
+                %p Recent Posts
+                .ui.list.footer
+                    - blog.articles[0...3].each do |article|
+                        = link_to article.title, article, :class => 'item'
+
+            .column.footer
+                %p Tags
+                .ui.list.footer
+                    - blog.tags.each do |tag, articles|
+                        = link_to "#{tag} (#{articles.size})", tag_path(tag), :class => 'item'
+
+            .column.footer
+                %p By Year
+                .ui.list.footer
+                    - blog.articles.group_by {|a| a.date.year }.each do |year, articles|
+                        = link_to "#{year} (#{articles.count})", blog_year_path(year), :class => 'item'
+
+            .column
+                .middle.aligned.content.footer
+                    %p
+                        Made with <i class="fa fa-heart" aria-hidden="true" style="color:#D3A64C"></i>
+                    %p
+                        All rights reserved. © 2017 LolaStef
+
+- if @video
+    :javascript
+        $('.ui.embed').embed()
