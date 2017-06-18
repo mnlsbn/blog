@@ -161,7 +161,7 @@
 .ui.menu > .grid,
 .ui.menu > .container {
 
-  padding-bottom: 20px;
+  padding-bottom: 10px;
   box-sizing: border-box;
   max-width: 1200px !important;
   margin-left: auto;
@@ -1013,7 +1013,7 @@ Floated Menu / Item
 }
 
 .ui.secondary.pointing.menu .active.item.link {
-  padding-right: 5px !important;
+  padding-right: 0px !important;
 }
 /* Active Hover */
 .ui.secondary.pointing.menu .active.item:hover {
