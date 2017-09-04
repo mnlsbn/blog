@@ -9,7 +9,6 @@ author: Linda
 Hey guys! Hope you're having an amazing day! 
 AS you know summer break is over. The sand, beaches, all of it... So today I wanted to share with you what I wore for my first day back to school.
 
-
 I decided to go with basics because it's more comfortable and it's super easy to recreate. 
 For this look, I chose to wear a white t-shirt with skinny jeans from [***Levi's***](https://m.levi.com/FR/fr_FR/products/188810196){:target="_blank"} and my sneakers from [***NO NAME***](http://www.noname-eshop.fr/fr/collection/1229-picadilly-sneaker-suede-white-sole-mastic.html){:target="_blank"}. 
 
